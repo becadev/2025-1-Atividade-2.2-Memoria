@@ -67,7 +67,9 @@ Os alunos devem simular a alocação dos processos na RAM usando o algoritmo **b
 ## Resposta
 ### Alocação Inicial com Best-Fit
 
-Iniciando simulação de alocação...
+
+``` shell
+simulação de alocação...
 
 ✓ P1 alocado na RAM.
 ✓ P2 alocado na RAM.
@@ -111,14 +113,14 @@ P5 (18 KB)
 === Processos na Memória Virtual ===
 P4 (10 KB)
 P5 (18 KB)
-
+```
 
 
 
 ### 2. Simular Memória Virtual (Paginação)
 
 
-
+``` shell
 === Estado da RAM (por páginas) ===
 P1 - Página 0 na RAM slot 0
 P1 - Página 1 na RAM slot 1
@@ -154,13 +156,13 @@ P3: Pg 0 (RAM), Pg 1 (RAM), Pg 2 (RAM), Pg 3 (RAM), Pg 4 (RAM), Pg 5 (RAM), Pg 6
 P4: Pg 0 (DISCO), Pg 1 (DISCO), Pg 2 (DISCO)
 P5: Pg 0 (DISCO), Pg 1 (DISCO), Pg 2 (DISCO), Pg 3 (DISCO), Pg 4 (DISCO)
 
-
+```
 
 ###  Desfragmentação da RAM
 
 
 
-
+``` shell
 === Estado da RAM (por páginas) ===
 Slot 0: P1 - Página 0
 Slot 1: P1 - Página 1
@@ -270,7 +272,7 @@ P3: Pg 0 (RAM), Pg 1 (RAM), Pg 2 (RAM), Pg 3 (RAM), Pg 4 (RAM), Pg 5 (RAM), Pg 6
 P4: Pg 0 (DISCO), Pg 1 (DISCO), Pg 2 (DISCO)
 P5: Pg 0 (DISCO), Pg 1 (DISCO), Pg 2 (DISCO), Pg 3 (DISCO), Pg 4 (DISCO)
 
-
+```
 
 
 ### Questões para Reflexão
