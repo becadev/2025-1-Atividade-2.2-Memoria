@@ -65,7 +65,7 @@ Os alunos devem simular a alocação dos processos na RAM usando o algoritmo **b
 ---
 
 ## Resposta
-### Alocação Inicial com Best-Fit
+### 1. Alocação Inicial com Best-Fit
 
 
 ``` shell
@@ -158,7 +158,7 @@ P5: Pg 0 (DISCO), Pg 1 (DISCO), Pg 2 (DISCO), Pg 3 (DISCO), Pg 4 (DISCO)
 
 ```
 
-###  Desfragmentação da RAM
+### 3. Desfragmentação da RAM
 
 
 
@@ -275,7 +275,7 @@ P5: Pg 0 (DISCO), Pg 1 (DISCO), Pg 2 (DISCO), Pg 3 (DISCO), Pg 4 (DISCO)
 ```
 
 
-### Questões para Reflexão
+### 4. Questões para Reflexão
 
 1. **O Best-fit foi mais eficiente que o First-fit ou o Worst-fit?**  
 Nesse caso, o Best-fit apresentou um desempenho parecido com o First-fit, já que a memória RAM começou vazia e os processos foram alocados em ordem sequencial. A principal vantagem do Best-fit, que é diminuir a fragmentação externa, não ficou tão evidente nessa situação.  
